@@ -1,0 +1,185 @@
+
+.footer {
+    padding: 30px 0;
+    background: var(--black);
+    border-top: 2px solid var(--light-black2);
+    position: relative;
+    z-index: 2;
+
+
+}
+
+.footer-body {
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.footer-column {
+    gap: 20px;
+}
+
+.contact-tolls {
+    gap: 12px;
+}
+
+.footer-btn-register {
+    color: var(--white);
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 100%;
+    border-radius: 30px;
+    position: relative;
+    z-index: 2;
+    padding: 15px 30px;
+    background: var(--blue);
+    transition: .3s;
+
+
+}
+
+.footer-btn-register:hover {
+    opacity: .7;
+}
+
+.footer-btn-login {
+    color: var(--white);
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 100%;
+    background: transparent;
+    transition: .3s;
+
+}
+
+.footer-btn-login:hover{
+    opacity: .7;
+}
+.footer-menu-list {
+    gap: 40px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+
+}
+
+.contact-link {
+    display: flex;
+}
+
+.contact-link i {
+    transition: .3s;
+}
+
+.contact-link:hover i {
+    transform: scale(1.1);
+}
+
+.footer-menu-link {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 100%;
+    color: var(--white);
+    opacity: .8;
+
+}
+
+.footer-actions {
+    gap: 20px;
+}
+
+.footer-menu-link:hover {
+    text-decoration: underline;
+
+}
+
+.footer-menu-mobile {
+    display: none;
+}
+
+@media (max-width: 1400px) {
+
+}
+
+@media (max-width: 1200px) {
+
+
+}
+
+@media (max-width: 992px) {
+    .footer {
+        margin-top: -20px;
+
+
+    }
+
+
+}
+
+@media (max-width: 768px) {
+
+
+}
+
+
+@media (max-width: 576px) {
+    .footer-body {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 40px;
+    }
+
+    .footer {
+        margin-top: 0;
+        padding: 50px 0;
+
+
+    }
+
+
+    .footer-btn-login {
+        order: 2;
+    }
+
+    .footer-btn-register {
+        order: 1;
+    }
+
+    .footer-menu-list {
+        max-width: 250px;
+
+    }
+
+    .footer-menu-mobile {
+        display: flex;
+        align-items: start;
+        gap: 40px;
+    }
+
+    .footer-menu-list {
+        gap: 15px;
+    }
+
+    .footer-menu {
+        display: none;
+    }
+
+    .footer-btn-register {
+        color: var(--white);
+        font-size: 12px;
+        line-height: 100%;
+        padding: 12px 19px;
+
+
+    }
+
+    .footer-btn-login {
+        font-size: 12px;
+    }
+
+
+}
+
+@media (max-width: 400px) {
+
+
+}

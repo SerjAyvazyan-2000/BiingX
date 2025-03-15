@@ -1,0 +1,1545 @@
+
+.hero-section {
+    background: var(--black);
+    min-height: 862px;
+    position: relative;
+    padding-top: 176px;
+    z-index: 2;
+    overflow: hidden;
+
+}
+
+.hero-grid {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+}
+
+.hero-grid img {
+    width: 100%;
+    height: 100%;
+}
+
+.hero-body {
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.hero-titles {
+    max-width: 460px;
+    width: 100%;
+}
+
+.hero-clue-title {
+    font-family: 'Dela Gothic One', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+    color: var(--blue);
+    text-transform: uppercase;
+
+}
+
+.hero-title {
+    margin-top: 10px;
+    font-family: 'Dela Gothic One', sans-serif;
+    font-weight: 400;
+    font-size: 45px;
+    color: var(--white);
+    line-height: 130%;
+
+}
+
+.hero-text {
+    margin-top: 30px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 150%;
+    opacity: .7;
+    color: var(--white);
+
+}
+
+.hero-btn {
+    margin-top: 50px;
+
+}
+
+.hero-tags {
+    margin-top: 50px;
+    gap: 50px;
+}
+
+.hero-tag-title {
+    font-family: 'Dela Gothic One', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: var(--white);
+    line-height: 120%;
+
+}
+
+.hero-tag-text {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 100%;
+    margin-top: 8px;
+    color: var(--white);
+
+    opacity: .7;
+}
+
+.hero-media {
+    max-width: 644px;
+    height: 536px;
+    width: 100%;
+}
+
+.hero-clues {
+    position: absolute;
+    bottom: 0;
+    min-height: 70px;
+    gap: 15px;
+    width: 100%;
+    backdrop-filter: blur(5px);
+    box-shadow: 0px -5px 30px 0px var(--light-black);
+    --webkit-filter: blur(5px);
+    min-width: max-content;
+    border-top: 2px solid var(--light-black2);
+    border-bottom: 2px solid var(--light-black2);
+
+
+}
+
+.hero-clues::after {
+    background: var(--light-black);
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+
+
+}
+
+
+.latest-news-column {
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.latest-news-items {
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 790px;
+    width: 100%;
+
+}
+
+.latest-item-icon {
+    max-width: 50px;
+    width: 100%;
+    height: 50px;
+}
+
+.latest-item-icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.latest-news-item {
+
+
+    flex: 1 1 33%;
+
+}
+
+.latest-item-title {
+    margin-top: 30px;
+    transition: .3s;
+}
+
+.latest-item-title:hover {
+    color: var(--blue);
+}
+
+.latest-item-text {
+    margin-top: 20px;
+
+}
+
+.latest-news-cart {
+    flex: 1 1 30%;
+}
+
+.latest-cart-img {
+    max-width: 320px;
+    width: 100%;
+    height: 219px;
+
+}
+
+.latest-cart-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.latest-cart-title {
+    margin-top: 20px;
+    transition: .3s;
+}
+
+.latest-cart-title:hover {
+    color: var(--blue);
+}
+
+.latest-cart-clue {
+    margin-top: 12px;
+
+}
+
+.block-tools {
+    gap: 25px;
+}
+
+.latest-cart-text {
+    flex: 1 1 auto;
+}
+
+
+.buy-crypto-section {
+    background: var(--black);
+    min-height: 707px;
+    z-index: 2;
+    position: relative;
+}
+
+.buy-crypto-decor {
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.buy-crypto-decor img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.buy-crypto-column {
+    padding: 0 54px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.buy-crypto-slider {
+    max-width: 490px;
+    width: 100%;
+    position: relative;
+}
+
+.buy-crypto-swiper {
+    max-width: 360px;
+    width: 100%;
+}
+
+.buy-crypto-title {
+    color: var(--white);
+    padding: 0;
+}
+
+.buy-crypto-tags {
+    margin-top: 40px;
+    gap: 50px;
+}
+
+.crypto-tag-title {
+    font-weight: 400;
+    font-size: 25px;
+    color: var(--white);
+    line-height: 120%;
+
+}
+
+.crypto-tag-text {
+    margin-top: 8px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 100%;
+    opacity: .7;
+    color: var(--white);
+
+}
+
+.buy-crypto-btn {
+    margin-top: 40px;
+}
+
+.crypto-title {
+    color: var(--white);
+}
+
+.crypto-img {
+    max-width: 30px;
+    width: 100%;
+    height: 30px;
+}
+
+.crypto-img img {
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.crypto-header {
+    gap: 15px;
+}
+
+.crypto-info {
+    margin-top: 20px;
+    justify-content: space-between;
+    gap: 10px;
+
+}
+
+.crypto-info-title {
+    color: var(--green);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+
+
+}
+
+.crypto-info-text {
+    margin-top: 10px;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 140%;
+    color: var(--white);
+
+}
+
+.crypto-info-graph {
+    max-width: 130px;
+    width: 100%;
+}
+
+.crypto-tolls {
+    margin-top: 20px;
+    gap: 10px;
+    justify-content: space-between;
+}
+
+.crypto-tolls-texts {
+    gap: 10px;
+}
+
+.crypto-tolls-texts p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: var(--white);
+
+}
+
+.crypto-tolls-texts span {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 140%;
+    color: var(--white);
+    opacity: .7;
+
+}
+
+.crypto-button-prev::after {
+    display: none;
+}
+
+.crypto-button-next::after {
+    display: none;
+}
+
+.crypto-button-prev {
+    width: 35px !important;
+    height: 35px !important;
+    border: 2px solid var(--light-black2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 5px 20px 0px var(--light-black);
+    --webkit-filter: blur(10px);
+    border-radius: 50%;
+    transition: .3s;
+
+}
+
+.crypto-button-next {
+    width: 35px !important;
+    height: 35px !important;
+    border: 2px solid var(--light-black2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 5px 20px 0px var(--light-black);
+    --webkit-filter: blur(10px);
+    border-radius: 50%;
+    transition: .3s;
+
+}
+
+.crypto-button-prev:hover {
+    opacity: .8;
+
+}
+
+.crypto-button-next:hover {
+    opacity: .8;
+
+
+}
+
+.icon-arrow {
+    font-size: 12px;
+    background: var(--white);
+    opacity: .7;
+
+}
+
+.crypto-button-next .icon-arrow {
+    transform: rotate(180deg);
+    margin-left: 2px;
+
+}
+
+.buy-crypto-items {
+    flex-wrap: wrap;
+    margin-top: 70px;
+    gap: 30px;
+}
+
+.buy-crypto-item {
+    flex: 1 1 31.6%;
+}
+
+.buy-item-header {
+    gap: 19px;
+}
+
+.buy-item-header i {
+    font-size: 24px;
+    background: var(--blue);
+}
+
+.buy-crypto-item .cart-title {
+    color: var(--white);
+}
+
+.buy-crypto-item .cart-text {
+    color: var(--white);
+    max-width: 312px;
+    flex: 1 1 auto;
+}
+
+.cart-more {
+    margin-top: 20px;
+    gap: 11px;
+    transition: .3s;
+}
+
+.cart-more:hover {
+    text-decoration: underline;
+    opacity: .7;
+}
+
+.cart-more span {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    color: var(--white);
+
+}
+
+.icon-arrow_insert {
+    font-size: 10px;
+    background: var(--white);
+}
+
+.trading-cnt {
+    padding: 24px 0;
+    background: var(--light-black3);
+    border: 1px solid var(--light-black4);
+    backdrop-filter: blur(10px);
+    --webkit-filter: var(10px);
+    box-shadow: 0px 5px 20px 0px var(--light-black5);
+    border-radius: 20px;
+    position: relative;
+
+
+}
+
+.trading-scrollbar {
+    overflow: auto;
+    padding-bottom: 20px;
+}
+
+
+.trading-scrollbar::-webkit-scrollbar {
+    height: 2px;
+}
+
+.trading-cnt::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 15px;
+    width: 30px;
+    height: 30px;
+    background: var(--white);
+}
+
+.trading-cnt::before {
+    position: absolute;
+    content: '';
+    right: 0;
+    bottom: 15px;
+    width: 30px;
+    height: 30px;
+    background: var(--white);
+}
+
+.trading-scrollbar::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background: var(--light-black7);
+]
+
+}
+
+
+.trading-action-names {
+    padding: 0 0 15px 0;
+
+
+}
+
+.trading-item {
+    padding: 15px 0;
+}
+
+.trading-item:last-child {
+    padding: 15px 0 0;
+    border-bottom: none;
+
+}
+
+.trading-action-names,
+.trading-item {
+    display: grid;
+    grid-template-columns:
+        minmax(160px, 1fr)
+        minmax(110px, 1fr)
+        minmax(110px, 1fr)
+        minmax(55px, 1fr)
+        minmax(90px, 1fr)
+        minmax(90px, 1fr)
+        minmax(120px, 1fr);
+    gap: 70px;
+    align-items: center;
+    border-bottom: 1px solid var(--light-black6);
+}
+
+
+.trading-item > :first-child {
+    padding: 0 0 0 50px;
+}
+
+.trading-item > :last-child {
+    padding: 0 50px 0 0;
+}
+
+
+.trading-action-name {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 130%;
+    color: var(--black);
+    opacity: .7;
+
+
+}
+
+.trading-action-name:first-child {
+    padding: 0 0 0 50px;
+}
+
+.trading-action-name:last-child {
+    padding: 0 50px 0 0;
+}
+
+
+.crypto-item-icon {
+    max-width: 24px;
+    width: 100%;
+    height: 24px;
+    flex: 0 0 24px;
+}
+
+.crypto-item {
+    gap: 10px;
+    min-width: 163px;
+
+}
+
+.crypto-name {
+    gap: 5px;
+}
+
+.crypto-name p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 130%;
+    color: var(--black);
+
+}
+
+.crypto-name span {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 130%;
+    color: var(--black);
+    opacity: .5;
+
+}
+
+
+.action-text p {
+    color: var(--black);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 130%;
+
+}
+
+.change p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 130%;
+    color: var(--red);
+
+}
+
+.graph {
+    max-width: 55px;
+    width: 100%;
+    height: 25px;
+}
+
+
+.protection-items {
+    margin-top: 30px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.protection-icon {
+    font-size: 25px;
+    background: var(--blue);
+}
+
+.protection-item-header {
+    gap: 20px;
+}
+
+.protection-item {
+    flex: 1 1 32.3%;
+}
+
+.icon-key {
+    font-size: 34px;
+    background: var(--blue);
+}
+
+.protection-black-item {
+    flex: 1 1 30%;
+    background: var(--black);
+    padding: 23px;
+    border-radius: 30px;
+    box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(10px);
+    --webkit-filter: blur(10px);
+    border: 2px solid var(--white2);
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+}
+
+.protection-black-item .cart-text {
+    color: var(--white);
+}
+
+.protection-black-item .cart-title {
+    color: var(--white);
+}
+
+.protection-grid {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+.protection-grid img {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+.trade-section {
+    position: relative;
+    z-index: 2;
+    min-height: 641px;
+}
+
+.trade-grid {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.trade-title {
+    color: var(--white);
+}
+
+.trade-body {
+    gap: 60px;
+
+}
+
+.trade-grid img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.trade-media {
+    max-width: 382px;
+    width: 100%;
+    height: 441px;
+}
+
+.trade-text {
+    margin-top: 15px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--white);
+    opacity: .8;
+
+}
+
+.social-networks {
+    margin-top: 25px;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.trade-title {
+    padding: 0;
+}
+
+.social-network {
+    padding: 12px 25px;
+    background: var(--light-black2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 5px 20px 0px var(--light-black);
+    border-radius: 40px;
+    gap: 10px;
+    border: 2px solid var(--light-black2);
+
+
+}
+
+.social-network span {
+    color: var(--white);
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 100%;
+
+}
+
+.social-network-icon {
+    max-width: 20px;
+    width: 100%;
+    height: 20px;
+}
+
+
+.faq-item i {
+    font-size: 12px;
+    background: var(--black);
+    transition: .3s;
+}
+
+.faq-title {
+    padding: 0;
+}
+
+.faq-body {
+    gap: 80px;
+}
+
+.faq-sub-title {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--black);
+    margin-top: 20px;
+
+}
+
+.faq-btn {
+    margin-top: 20px;
+}
+
+.faq-items {
+    max-width: 550px;
+    width: 100%;
+}
+
+.faq-items > :not(:last-child) {
+    margin: 0 0 20px 0;
+}
+
+.faq-item {
+    padding: 30px;
+    background: var(--light-black3);
+    border-radius: 25px;
+    box-shadow: 0px 5px 20px 0px var(--light-black5);
+    backdrop-filter: blur(10px);
+    border: 2px solid var(--light-black4);
+    width: 100%;
+    justify-content: space-between;
+    gap: 10px;
+    transition: .3s;
+
+
+}
+
+.faq-item span {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: var(--black);
+
+}
+
+.faq-item:hover {
+    border: 2px solid var(--dark-blue);
+}
+
+.faq-item:hover i {
+    background: var(--blue);
+
+}
+
+.faq-item:hover b {
+    color: var(--blue);
+
+}
+
+.faq-item.active {
+    border: 2px solid var(--dark-blue);
+}
+
+.faq-item.active i {
+    background: var(--blue);
+
+}
+
+.faq-item.active b {
+    color: var(--blue);
+
+}
+
+
+.trust-section {
+    position: relative;
+    z-index: 2;
+    min-height: 756px;
+    background: var(--black);
+}
+
+.trust-clues {
+    position: absolute;
+    top: 0;
+    min-height: 70px;
+    gap: 15px;
+    width: 100%;
+    backdrop-filter: blur(140px);
+    box-shadow: 0px -5px 30px 0px var(--light-black);
+    --webkit-filter: blur(40px);
+    min-width: max-content;
+    border-top: 2px solid var(--light-black2);
+    border-bottom: 2px solid var(--light-black2);
+    background: var(--light-black);
+    z-index: 2;
+
+
+}
+
+
+.trust-grid {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.trust-grid img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.trust-body {
+    padding: 170px 0 0 0;
+    gap: 60px;
+}
+
+.trust-media {
+    max-width: 537px;
+    width: 100%;
+    height: 536px;
+}
+
+.trust-title {
+    color: var(--white);
+    font-family: 'Dela Gothic One', sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 130%;
+    text-transform: uppercase;
+
+}
+
+.trust-description {
+    max-width: 591px;
+    width: 100%;
+}
+
+.trust-sub-title {
+    margin-top: 30px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--white);
+
+}
+
+.trust-tags {
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.trust-btn {
+    margin-top: 50px;
+}
+
+.trust-tag h3 {
+    font-family: 'Dela Gothic One', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: var(--white);
+
+}
+
+.trust-tag p {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 100%;
+    color: var(--white);
+    opacity: .7;
+    margin-top: 8px;
+
+}
+
+.marquee {
+    gap: 15px;
+}
+
+.trust-marquee {
+    gap: 15px;
+
+}
+
+
+@media (max-width: 1664px) {
+
+
+    .hero-clues {
+        overflow: hidden;
+        white-space: nowrap;
+        width: 100%;
+    }
+
+
+    .marquee-container {
+        display: flex;
+        width: max-content;
+        gap: 20px;
+        position: absolute;
+        will-change: transform;
+    }
+}
+
+@media (max-width: 1400px) {
+
+}
+
+
+@media (max-width: 1200px) {
+    .hero-media {
+        max-width: 444px;
+        height: 436px;
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 1200px) {
+    .latest-news-items {
+        max-width: 100%;
+    }
+
+    .trading-cnt {
+        padding: 24px 0 15px 0;
+    }
+
+    .trust-body {
+        gap: 40px;
+    }
+
+    .trust-media {
+        max-width: 400px;
+        height: 400px;
+    }
+
+    .faq-body {
+        gap: 20px;
+    }
+
+    .buy-crypto-column {
+        padding: 0;
+    }
+
+    .buy-crypto-tags {
+        gap: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .hero-body {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .trust-body {
+        flex-direction: column-reverse;
+        padding: 120px 0 0 0;
+    }
+
+    .trust-media {
+        margin: 0 auto;
+    }
+
+    .faq-body {
+        flex-direction: column;
+    }
+
+    .trade-body {
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+
+    .trade-description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .faq-titles {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .buy-crypto-column {
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .trade-text {
+        text-align: center;
+    }
+
+    .buy-crypto-item {
+        flex: 1 1 auto;
+    }
+
+    .buy-crypto-titles {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .hero-media {
+        margin: 0 auto;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .faq-sub-title {
+        text-align: center;
+
+    }
+
+    .protection-item {
+        flex: 1 1 50%;
+    }
+
+    .protection-black-item {
+        flex: 1 1 50%;
+    }
+
+    .latest-news-item {
+        flex: 1 1 50%;
+    }
+
+    .buy-crypto-title {
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .text-dots {
+        display: none;
+    }
+
+    .trust-clues {
+        min-height: 48px;
+    }
+
+    .trade-text {
+        margin-top: 12px;
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 150%;
+        text-align: center;
+
+    }
+
+    .trust-tags {
+        margin-top: 30px;
+        gap: 24px;
+    }
+
+    .trust-tag h3 {
+        font-size: 15px;
+        line-height: 120%;
+
+    }
+
+    .trust-title {
+        font-size: 25px;
+        line-height: 130%;
+    }
+
+    .trust-sub-title {
+        margin-top: 20px;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 150%;
+        opacity: .6;
+
+    }
+
+    .trust-btn {
+        margin-top: 30px;
+    }
+
+    .trust-tag p {
+        font-size: 12px;
+        line-height: 100%;
+
+    }
+
+    .protection-items {
+        gap: 15px;
+    }
+
+    .protection-item .cart-text {
+        margin-top: 15px;
+        max-width: 270px;
+    }
+
+    .protection-item-header {
+        gap: 12px;
+    }
+
+    .protection-icon {
+        font-size: 17px;
+    }
+
+    .icon-key {
+        font-size: 21px;
+    }
+
+    .protection-black-item .cart-text {
+        margin-top: 15px;
+        max-width: 270px;
+    }
+
+    .latest-item-text {
+        max-width: 270px;
+    }
+
+    .latest-news-column {
+        gap: 15px;
+    }
+
+    .crypto-tag-title {
+        font-size: 18px;
+        text-align: center;
+        line-height: 120%;
+
+    }
+
+    .buy-crypto-btn {
+        margin-top: 30px;
+    }
+
+    .crypto-tag-text {
+        margin-top: 5px;
+        font-size: 12px;
+        line-height: 100%;
+        text-align: center;
+        opacity: .6;
+
+    }
+
+    .buy-crypto-slider {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .crypto-button-next {
+        position: initial !important;
+    }
+
+    .trading-item > :first-child {
+        padding: 0 0 0 30px;
+    }
+
+    .buy-crypto-arrows {
+        margin-top: 40px;
+        gap: 15px;
+    }
+
+    .crypto-button-prev {
+        position: initial !important;
+    }
+
+    .latest-item-title {
+        margin-top: 20px;
+    }
+
+    .hero-section {
+        min-height: 905px;
+        padding-top: 124px;
+
+    }
+
+    .latest-cart-img {
+        max-width: 100%;
+        height: 150px;
+    }
+
+    .buy-crypto-tags {
+        margin-top: 30px;
+    }
+
+    .buy-crypto-column {
+        gap: 50px;
+    }
+
+    .buy-crypto-items {
+        margin-top: 50px;
+        gap: 20px;
+    }
+
+    .trading-item > :last-child {
+        padding: 0 30px 0 0;
+    }
+
+    .trading-action-names,
+    .trading-item {
+        gap: 50px;
+
+    }
+
+    .crypto-info-graph {
+        max-width: 107px;
+    }
+
+    .trading-action-name:last-child {
+        padding: 0 30px 0 0;
+    }
+
+    .crypto-tolls-texts p {
+        font-size: 15px;
+        line-height: 140%;
+
+    }
+
+    .icon-arrow_insert {
+        font-size: 7px;
+    }
+
+    .cart-more span {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 140%;
+    }
+
+    .cart-more {
+        margin-top: 15px;
+        gap: 10px;
+    }
+
+    .latest-news-items {
+        gap: 15px;
+    }
+
+    .latest-item-icon {
+        max-width: 40px;
+        height: 40px;
+    }
+
+    .hero-clue-title {
+        font-family: 'Dela Gothic One', sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 100%;
+        text-transform: uppercase;
+
+    }
+
+    .buy-crypto-item .cart-text {
+        margin-top: 15px;
+    }
+
+    .hero-title {
+        font-family: 'Dela Gothic One', sans-serif;
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 130%;
+
+    }
+
+    .buy-item-header {
+        gap: 13px;
+    }
+
+    .trading-action-name:first-child {
+        padding: 0 0 0 30px;
+    }
+
+    .hero-text {
+        margin-top: 20px;
+        font-size: 14px;
+        line-height: 150%;
+        max-width: 320px;
+
+    }
+
+    .hero-tags {
+        margin-top: 30px;
+        gap: 24px;
+    }
+
+    .buy-item-header i {
+        font-size: 17px;
+    }
+
+    .hero-tag-title {
+        font-size: 15px;
+        line-height: 120%;
+
+    }
+
+    .hero-btn {
+        margin-top: 30px;
+        padding: 15px 30px;
+        font-size: 15px;
+
+    }
+
+    .hero-tag-text {
+        font-size: 12px;
+        line-height: 100%;
+
+    }
+
+
+    .crypto-img {
+        max-width: 25px;
+        height: 25px;
+    }
+
+    .crypto-info-text {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 140%;
+
+    }
+
+    .crypto-info-title {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 140%;
+
+    }
+
+    .hero-media {
+        max-width: 320px;
+        height: 267px;
+        width: 100%;
+    }
+
+
+    .marquee {
+        gap: 15px;
+    }
+
+    .trust-marquee {
+        gap: 15px;
+
+    }
+
+    .cart-more {
+        margin-top: 15px;
+    }
+
+    .hero-clues {
+        min-height: 40px;
+    }
+
+    .marquee-container {
+        gap: 15px;
+        position: absolute;
+    }
+
+    .social-networks {
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .social-network {
+        gap: 8px;
+        padding: 10px 18px;
+    }
+
+    .social-network span {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 100%;
+
+    }
+
+    .social-network-icon {
+        max-width: 12px;
+        height: 12px;
+    }
+
+    .trade-media {
+        max-width: 224px;
+        height: 281px;
+    }
+
+    .faq-sub-title {
+        font-size: 15px;
+        line-height: 150%;
+
+    }
+
+    .faq-item span {
+        font-size: 15px;
+        line-height: 100%;
+
+    }
+
+    .faq-items > :not(:last-child) {
+        margin: 0 0 15px 0;
+    }
+
+    .faq-body {
+        gap: 40px;
+    }
+
+    .faq-item {
+        padding: 25px;
+        border-radius: 20px;
+
+    }
+
+    .faq-item i {
+        font-size: 10px;
+    }
+
+    .trust-media {
+        max-width: 320px;
+        height: 319px;
+    }
+}
+
+@media (max-width: 400px) {
+
+
+}
+
+
+
+
+
+
+
+
+
+

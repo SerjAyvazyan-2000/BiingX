@@ -1,0 +1,780 @@
+
+.news-section {
+    margin-top: 30px;
+}
+
+.news-body .block-tools {
+    padding: 0 0 0 30px;
+}
+
+.icon-arrow_blue {
+    font-size: 10px;
+    background: var(--blue);
+}
+
+.cart-info {
+    gap: 20px;
+    margin-top: 20px;
+    flex: 1 1 auto;
+}
+
+.news-list {
+    margin-top: 30px;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+
+.news-cart-more {
+    gap: 14px;
+    margin-top: 25px;
+    transition: .3s;
+}
+
+.news-cart-more:hover {
+    text-decoration: underline;
+    opacity: .7;
+}
+
+.news-cart-more span {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    color: var(--blue);
+
+}
+
+
+.news-body .section-title {
+    padding: 0 0 0 30px;
+}
+
+.news-cart {
+    flex: 1 1 31.6%;
+
+}
+
+.news-cart .cart-text {
+    margin-top: 0;
+}
+
+.news-cart .cart-title:hover {
+    color: var(--blue);
+}
+
+.news-cart .cart-title {
+    transition: .3s;
+}
+
+
+.cart-img {
+    width: 100%;
+    height: 200px;
+
+}
+
+.cart-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.news-details-body {
+    margin-top: 30px;
+
+}
+
+.news-details-cnt {
+    margin-top: 30px;
+    gap: 20px;
+}
+
+.details-tools {
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.news-details-info {
+    /*padding: 30px 27px;*/
+
+}
+
+.news-details-section .section-title {
+    padding: 0 0 0 30px;
+}
+
+.details-img {
+    height: 400px;
+    width: 100%;
+}
+
+.details-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+.big-column {
+    max-width: 780px;
+    width: 100%;
+    gap: 20px;
+}
+
+.small-column {
+    max-width: 400px;
+    width: 100%;
+}
+
+.details-tools {
+    margin-top: 25px;
+}
+
+.details-actions {
+    gap: 15px;
+}
+
+.details-data {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 140%;
+    color: var(--black);
+    opacity: .5;
+
+}
+
+.details-watched {
+    gap: 8px;
+}
+
+.details-watched p {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 140%;
+    color: var(--black);
+    opacity: .8;
+
+}
+
+.icon-visibility {
+    background: var(--black);
+    font-size: 20px;
+
+}
+
+.details-share {
+    gap: 15px;
+}
+
+.share-in {
+    gap: 10px;
+}
+
+.icon-send {
+    font-size: 12px;
+    background: var(--black);
+
+}
+
+.share-in span {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    color: var(--black);
+
+}
+
+.favorite {
+    gap: 10px;
+}
+
+.favorite span {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    color: var(--black);
+
+}
+
+.icon-favorite {
+    background: var(--blue);
+}
+
+.awards-title {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 107%;
+    color: var(--black);
+    margin-left: 30px;
+
+}
+
+.awards-items {
+    margin-top: 20px;
+    gap: 15px;
+}
+
+.award-item {
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 25px 30px;
+
+}
+
+.award-item-title {
+    gap: 17px;
+}
+
+.award-item-title p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 130%;
+    color: var(--black);
+
+}
+
+
+.award-item-title i {
+    font-size: 20px;
+    background: var(--blue);
+}
+
+.award-item .btn-blue {
+    max-width: 164px;
+    width: 100%;
+    padding: 15px 25px;
+    font-size: 15px;
+}
+
+
+.details-item-descriptions {
+    padding: 30px 27px;
+    gap: 40px;
+
+}
+
+.description-title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: var(--black);
+
+}
+
+.description-text {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 140%;
+    color: var(--black);
+    opacity: .8;
+    margin-top: 20px;
+
+}
+
+.description-bold-text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    color: var(--black);
+
+}
+
+.count-texts {
+    margin-top: 25px;
+    gap: 5px;
+}
+
+.count-texts p {
+    margin-left: 5px;
+}
+
+
+.dots-texts {
+    margin-top: 25px;
+    gap: 5px;
+}
+
+.dots-texts p {
+    margin-left: 20px;
+    position: relative;
+}
+
+.dots-texts p::after {
+    width: 3px;
+    height: 3px;
+    content: '';
+    border-radius: 50%;
+    background: var(--black);
+    position: absolute;
+    left: -10px;
+    top: 8px;
+
+}
+
+.description-clue {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 140%;
+    color: var(--black);
+    opacity: .8;
+}
+
+.small-column {
+    max-width: 400px;
+    width: 100%;
+}
+
+.possibilities-block {
+    /*padding: 27px;*/
+    /*width: 100%;*/
+    /*background: var(--dark-gray);*/
+    /*border: 2px solid var(--white);*/
+    /*border-radius: 30px;*/
+    /*backdrop-filter: blur(5px);*/
+    /*--webkit-filter: blur(5px);*/
+    /*box-shadow: 0px 5px 30px 0px var(--dark-gray2);*/
+}
+
+.possibilities-title {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 100%;
+    color: var(--black);
+
+}
+
+.possibilities-items {
+    gap: 25px;
+    margin-top: 25px;
+
+}
+
+.possibilities-item-header {
+    gap: 12px;
+}
+
+.possibilities-icon {
+    background: var(--blue);
+    font-size: 15px;
+}
+
+.possibilities-item-name {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+    color: var(--black);
+
+}
+
+.possibilities-more {
+    margin-left: auto;
+}
+
+.possibilities-more i {
+    font-size: 12px;
+    background: var(--blue);
+}
+
+.possibilities-text {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 140%;
+    color: var(--black);
+    margin-top: 6px;
+
+}
+
+.details-banner-block {
+    min-height: 630px;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    margin-top: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    background: var(--black);
+    backdrop-filter: blur(5px);
+    --webkit-filter: blur(5px);
+    border-radius: 30px;
+    box-shadow: 0px 5px 30px 0px rgba(7, 0, 22, 0.1);
+
+
+}
+
+.details-banner-grid {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+
+}
+
+.details-banner-grid img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.details-banner-block {
+    padding: 60px 40px 18px 40px;
+}
+
+.banner-title {
+    font-family: 'Dela Gothic One',sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 100%;
+    text-transform: uppercase;
+    color: var(--white);
+    text-align: start;
+
+}
+
+.banner-text {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    text-align: start;
+    margin-top: 20px;
+    opacity: .8;
+    color: var(--white);
+
+}
+.banner-tolls .btn-blue-small{
+    max-width: 181px;
+    height: 40px;
+    font-size: 15px;
+}
+.banner-tolls {
+    gap: 25px;
+    margin-top: 35px;
+}
+
+.banner-demo {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 100%;
+    color: var(--white);
+    opacity: .8;
+
+
+
+}
+.banner-media{
+    margin-top: 10px;
+    max-width: 315px;
+    width: 100%;
+    height: 315px;
+}
+.banner-media img{
+    object-fit: cover;
+}
+
+@media (max-width: 1400px) {
+
+}
+
+@media (max-width: 1200px) {
+
+
+}
+
+@media (max-width: 992px) {
+
+    .news-details-cnt {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .big-column {
+        max-width: 100%;
+        gap: 30px;
+    }
+
+    .small-column {
+        max-width: 100%;
+    }
+
+    .banner-tolls {
+        gap: 20px;
+        margin-top: 40px;
+    }
+    .banner-media{
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .news-cart {
+        flex: 1 1 50%;
+
+    }
+}
+
+
+@media (max-width: 576px) {
+    .news-cart {
+        flex: 1 1 50%;
+        padding: 25px;
+        border-radius: 25px;
+
+    }
+
+    .cart-info {
+        gap: 15px;
+    }
+
+    .news-list {
+        gap: 15px;
+    }
+
+
+    .cart-img {
+        height: 170px;
+    }
+
+
+    .details-img {
+        height: 170px;
+    }
+
+    .awards-block {
+        margin-top: 15px;
+    }
+
+    .awards-title {
+        margin-left: 0;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 140%;
+        text-align: center;
+
+    }
+
+    .details-tools {
+        margin-top: 20px;
+    }
+
+    .details-data {
+        font-size: 12px;
+        line-height: 140%;
+
+    }
+
+    .icon-visibility {
+        font-size: 10px;
+    }
+    .news-cart-more {
+        margin-top: 18px;
+        gap: 8px;
+    }
+
+
+    .news-cart-more span {
+        font-size: 12px;
+        line-height: 140%;
+
+    }
+    .news-cart-more i{
+        font-size: 8px;
+    }
+
+
+    .details-watched p {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 140%;
+
+    }
+
+    .details-share {
+        gap: 7px;
+    }
+
+    .details-share span {
+        display: none;
+    }
+
+    .details-share i {
+        font-size: 10px;
+    }
+
+    .details-watched {
+        gap: 5px;
+    }
+
+    .details-actions {
+        gap: 8px;
+    }
+
+    .award-item-title {
+        gap: 11px;
+    }
+
+    .award-item-title p {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 100%;
+
+    }
+
+    .award-item-title i {
+        font-size: 16px;
+    }
+    .news-cart-clue{
+        font-size: 10px;
+        line-height: 140%;
+
+    }
+
+    .award-item {
+        padding: 25px;
+        border-radius: 25px;
+        gap: 15px;
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .details-item-descriptions {
+        padding: 25px;
+        gap: 25px;
+        border-radius: 25px;
+    }
+
+    .description-text {
+        margin-top: 15px;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 140%;
+
+    }
+
+    .description-title {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 100%;
+
+    }
+
+    .count-texts {
+        margin-top: 20px;
+
+    }
+
+    .description-bold-text {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 140%;
+    }
+
+    .description-clue {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 140%;
+    }
+
+    .possibilities-title {
+        font-size: 18px;
+        line-height: 100%;
+
+    }
+
+    .possibilities-items {
+        gap: 35px;
+    }
+
+    .possibilities-block {
+        padding: 25px;
+        border-radius: 25px;
+
+    }
+
+    .possibilities-text {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 140%;
+
+    }
+
+    .details-banner-block {
+        padding: 40px 0 24px 0 ;
+        border-radius: 25px;
+        min-height: 550px;
+    }
+    .banner-title{
+        padding: 0 0 0 30px;
+        font-size: 20px;
+        line-height: 120%;
+
+    }
+
+    .possibilities-more i {
+        font-size: 10px;
+    }
+
+
+
+    .details-trust-body {
+        display: none;
+    }
+    .banner-tolls{
+        padding: 0 0 0 30px;
+
+    }
+
+    .banner-text {
+        font-size: 12px;
+        line-height: 140%;
+        margin-top: 20px;
+        padding: 0 0 0 30px;
+
+    }
+
+    .trust-section {
+        padding-bottom: 70px;
+    }
+
+    .banner-demo {
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 100%;
+
+    }
+
+    .details-banner-img img {
+        border-radius: 25px;
+    }
+
+    .news-body .section-title {
+        padding: 0;
+    }
+    .news-details-section .section-title{
+        padding: 0;
+
+    }
+
+
+    .award-item .btn-blue {
+        max-width: 130px;
+        padding: 12px 29px;
+        font-size: 12px;
+    }
+    .banner-tolls .btn-blue-small{
+        max-width: 147px;
+        height: 32px;
+        font-size: 12px;
+    }
+    .news-details-section{
+        padding-bottom: 20px;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+
+}

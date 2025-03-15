@@ -1,0 +1,94 @@
+@charset "UTF-8";
+
+.icon {
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    mask-size: contain;
+    -webkit-mask-size: contain;
+    mask-repeat: no-repeat;
+    -webkit-mask-repeat: no-repeat;
+    mask-position: center;
+    -webkit-mask-position: center;
+}
+
+.icon-arrow{
+    mask-image: url(arrow.svg);
+    -webkit-mask-image: url(arrow.svg);
+}
+.icon-deployed_code{
+    mask-image: url(deployed_code.svg);
+    -webkit-mask-image: url(deployed_code.svg);
+}
+.icon-arrow_insert{
+    mask-image: url(arrow_insert.svg);
+    -webkit-mask-image: url(arrow_insert.svg);
+}
+
+.icon-arrow_blue{
+    mask-image: url(arrow_insert.svg);
+    -webkit-mask-image: url(arrow_insert.svg);
+}
+.icon-dot_large{
+    mask-image: url(background_dot_large.svg);
+    -webkit-mask-image: url(background_dot_large.svg);
+}
+.icon-grid_on{
+    mask-image: url(grid_on.svg);
+    -webkit-mask-image: url(grid_on.svg);
+}
+.icon-key{
+    mask-image: url(key.svg);
+    -webkit-mask-image: url(key.svg);
+}
+.icon-zoom_in{
+    mask-image: url(zoom_in.svg);
+    -webkit-mask-image: url(zoom_in.svg);
+}
+.icon-visibility{
+    mask-image: url(visibility.svg);
+    -webkit-mask-image: url(visibility.svg);
+}
+.icon-send{
+    mask-image: url(send.svg);
+    -webkit-mask-image: url(send.svg);
+}
+.icon-favorite{
+    mask-image: url(favorite.svg);
+    -webkit-mask-image: url(favorite.svg);
+}
+.icon-account_circle{
+    mask-image: url(account_circle.svg);
+    -webkit-mask-image: url(account_circle.svg);
+}
+
+.icon-cast{
+    mask-image: url(cast.svg);
+    -webkit-mask-image: url(cast.svg);
+}
+.icon-credit_card{
+    mask-image: url(credit_card.svg);
+    -webkit-mask-image: url(credit_card.svg);
+}
+.icon-language{
+    mask-image: url(language.svg);
+    -webkit-mask-image: url(language.svg);
+}
+.icon-language{
+    mask-image: url(language.svg);
+    -webkit-mask-image: url(language.svg);
+}
+
+.icon-money_bag{
+    mask-image: url(money_bag.svg);
+    -webkit-mask-image: url(money_bag.svg);
+}
+.icon-money_bag{
+    mask-image: url(money_bag.svg);
+    -webkit-mask-image: url(money_bag.svg);
+}
+
+.icon-festival{
+    mask-image: url(festival.svg);
+    -webkit-mask-image: url(festival.svg);
+}
