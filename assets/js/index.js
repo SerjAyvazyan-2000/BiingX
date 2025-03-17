@@ -65,7 +65,6 @@ window.addEventListener('scroll', function () {
 
 
 document.addEventListener("DOMContentLoaded", function () {
-    if (window.innerWidth < 1664) {
         const container = document.querySelector(".hero-clues");
         const marquee = document.querySelector(".marquee");
 
@@ -94,13 +93,12 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         animate();
-    }
+
 });
 
 
 
 document.addEventListener("DOMContentLoaded", function () {
-    if (window.innerWidth < 1664) {
         const container = document.querySelector(".trust-clues");
         const marquee = document.querySelector(".trust-marquee");
 
@@ -129,5 +127,4 @@ document.addEventListener("DOMContentLoaded", function () {
         }
 
         animate();
-    }
 });

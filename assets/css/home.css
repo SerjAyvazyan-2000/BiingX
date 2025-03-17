@@ -654,6 +654,14 @@
     flex-wrap: wrap;
 }
 
+.protection-item{
+    padding: 30px;
+}
+.protection-black-item{
+    padding: 30px;
+
+}
+
 .protection-icon {
     font-size: 25px;
     background: var(--blue);
@@ -995,6 +1003,13 @@
 
 }
 
+.marquee-container {
+    display: flex;
+    width: max-content;
+    gap: 20px;
+    position: absolute;
+    will-change: transform;
+}
 
 @media (max-width: 1664px) {
 
@@ -1006,13 +1021,7 @@
     }
 
 
-    .marquee-container {
-        display: flex;
-        width: max-content;
-        gap: 20px;
-        position: absolute;
-        will-change: transform;
-    }
+
 }
 
 @media (max-width: 1400px) {
@@ -1449,7 +1458,13 @@
         width: 100%;
     }
 
+    .protection-item{
+        padding: 25px;
+    }
+    .protection-black-item{
+        padding: 25px;
 
+    }
     .marquee {
         gap: 15px;
     }
